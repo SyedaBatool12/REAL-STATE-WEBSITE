@@ -1,0 +1,37 @@
+.banner {
+    background: linear-gradient(90deg, #C1DEE8 0%, #FBD9B9 100%);
+}
+
+* {
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+   
+}
+
+.end {
+    background: linear-gradient(90deg, #C1DEE8 0%, #FBD9B9 100%);
+}
+
+.search-here {
+    width: 350px !important;
+}
+
+.first {
+    position: absolute;
+    left: 310px;
+}
+
+@media screen and (max-width:434px) {
+    .first {
+        width: 140px;
+        position: absolute;
+        left: 170px;
+    }
+
+    .search-here {
+        width: 250px !important;
+    }
+}
+.one{
+    height: 250px;
+}
